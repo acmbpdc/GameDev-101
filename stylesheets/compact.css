@@ -1,0 +1,25 @@
+.md-tabs__list {
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.4) transparent;
+}
+
+.md-tabs__item {
+  flex-shrink: 0;
+}
+
+/* Scrollbar styling for Chrome/Edge */
+.md-tabs__list::-webkit-scrollbar {
+  height: 4px;
+}
+.md-tabs__list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+}
+.md-tabs__list::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+.md-tabs__list::-webkit-scrollbar-track {
+  background: transparent;
+}
